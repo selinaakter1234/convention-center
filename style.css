@@ -1,0 +1,50 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    
+}
+.banner-caption{
+    padding: 70px;
+}
+
+.fa-gift{
+    font-size: 30px;
+    padding: 5px;
+}
+.pro-card{
+   
+background-color: rgb(70, 198, 248);
+    border-radius: 20px;
+}
+.accordion img{
+    width: 546px;
+    height: 364px;
+    align-items: center;
+}
+
+footer{
+    background-color: black;
+    height: 280px;
+    color: white;
+    
+}
+.footer_p{
+    margin-top: 20%;
+}
+.app-btn{
+    color: white;
+
+}
+.fa-apple{
+    font-size: 50px;
+    padding: 5px;
+}
+.fa-google-play{
+    font-size: 50px;
+    padding: 5px;
+}
+.btn-size{
+    Width :200px;
+Height:70px;
+border-radius: 15px;
+}

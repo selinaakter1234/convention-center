@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assignment</title>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/d6e4b90eb6.js" crossorigin="anonymous"></script>
+    <!-- bootstrap css link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- google font link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <div class="container">
+              <a class="navbar-brand" href="#">Photography Convention Center</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Abou us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Subscribe</a>
+                  </li>
+                  
+                </ul>
+              </div>
+            </div>
+          </nav>
+   <section>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/banner.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block banner-caption">
+                    <h1>The perfect venue for your <br> next event</h1>
+                    <p class="banner-para">Amet minim mollit non deserunt ullamco est sit aliqua <br> dolor do amet sint. Velit officia consequat duis enim velit </p>
+                  <a href="https://www.instagram.com/" target="_blank"><button class="btn text-primary rounded px-3" style="background-color: white;"> Book Now</button></a>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images/banner.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block banner-caption">
+                    <h1>The perfect venue for your <br> next event</h1>
+                    <p>Amet minim mollit non deserunt ullamco est sit aliqua <br> dolor do amet sint. Velit officia consequat duis enim velit </p>
+                    <a href="https://www.instagram.com/" target="_blank"><button class="btn text-primary rounded px-3" style="background-color: white;"> Book Now</button></a>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images/banner.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block banner-caption ">
+                    <h1>The perfect venue for your <br> next event</h1>
+                    <p>Amet minim mollit non deserunt ullamco est sit aliqua <br> dolor do amet sint. Velit officia consequat duis enim velit </p>
+                    <a href="https://www.instagram.com/" target="_blank"><button class="btn text-primary rounded px-3" style="background-color: white;"> Book Now</button></a>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+   </header>
+
+
+  <main>
+      <section class="mt-5">
+       
+        <!-- toaster  -->
+        <div class="toast show align-items-center me-2 m-auto" role="alert" aria-live="assertive" aria-atomic="true">
+          <div class="d-flex bg-info">
+            <div class="toast-body d-flex align-items-center justify-item-center">
+              <i class="fas fa-gift"></i>
+               <p class="mt-2 ps-2">20% off on next booking</p>
+           </div>
+            <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+          </div>
+        </div>
+        
+         <!-- toaster  -->
+        <div class="container">
+            <div class="text-center my-5">
+                <h1>Our Package</h1>
+            </div>
+            <div class="row row-cols-4 my-5 py-3">
+              <div class="col-12 col-lg-3">
+                <div class="card border-0 mb-3" style="max-width: 18rem;">
+                    <div class="card-header bg-transparent border-0"><h2>$300</h2></div>
+                    <div class="card-body card-text">
+                      <h4 class="card-title">Business Fair</h4>
+                      <p class="card-text">For most businesses event like book fair, craft fair.</p>
+                      <div class="package_list d-flex flex-column">
+                        <i class="far fa-check-circle py-2"> &nbsp; limited space access</i>
+                        <i class="far fa-check-circle py-2"> &nbsp; Secuirty facility</i>
+                        <i class="far fa-check-circle py-2"> &nbsp; event support</i>
+                        <i class="far fa-check-circle py-2"> &nbsp; Decoration design</i>
+                        <i class="far fa-check-circle py-2"> &nbsp; Per day bill</i>
+                        
+                      </div>
+                    </div>
+                    <div class="card-footer d-grid col-12 mx-auto bg-transparent border-0">
+                        <button type="button" class="btn btn-lg rounded-pill" style="background-color:rgba(233, 191, 230, 0.707);">Choose plan</button>
+                    </div>
+                </div>
+              </div>
+              <div class="col-12 col-lg-3">
+                <div class="card border-0 mb-3" style="max-width: 18rem;">
+                    <div class="card-header bg-transparent border-0"><h2>$300</h2></div>
+                    <div class="card-body card-text">
+                      <h4 class="card-title">Business Fair</h4>
+                      <p class="card-text">For most businesses event like book fair, craft fair.</p>
+                      <div class="package_list d-flex flex-column">
+                        <i class="far fa-check-circle py-2"> &nbsp; limited space access</i>
+                        <i class="far fa-check-circle py-2"> &nbsp; Secuirty facility</i>
+                        <i class="far fa-check-circle py-2"> &nbsp; event support</i>
+                        <i class="far fa-check-circle py-2"> &nbsp; Decoration design</i>
+                        <i class="far fa-check-circle py-2"> &nbsp; Per day bill</i>
+                        
+                      </div>
+                    </div>
+                    <div class="card-footer d-grid col-12 mx-auto bg-transparent border-0">
+                        <button type="button" class="btn btn-lg rounded-pill" style="background-color:rgba(233, 191, 230, 0.707);">Choose plan</button>
+                    </div>
+                </div>
+              </div>
+              <div class="col-12 col-lg-3 ">
+                <div class="card shadow-lg p-3 mb-5 border-0 mb-3 pro-card " style="width: 18rem;">
+                  
+                  <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                    <p class="px-2">HOT</p>
+                    <span class="visually-hidden"></span>
+                  </span>
+
+                    <div class="card-header bg-transparent border-0 text-white"><h2>$300</h2></div>
+                    <div class="card-body card-text">
+                      <h4 class="card-title text-white">Business Fair</h4>
+                      <p class="card-text text-white">For most businesses event like book fair, craft fair.</p>
+                      <div class="package_list d-flex flex-column text-white">
+                        <i class="far fa-check-circle py-2"> &nbsp; limited space access</i>
+                        <i class="far fa-check-circle py-2"> &nbsp; Secuirty facility</i>
+                        <i class="far fa-check-circle py-2"> &nbsp; event support</i>
+                        <i class="far fa-check-circle py-2"> &nbsp; Decoration design</i>
+                        <i class="far fa-check-circle py-2"> &nbsp; Per day bill</i>
+                        
+                      </div>
+                    </div>
+                    <div class="card-footer d-grid col-12 mx-auto bg-transparent border-0">
+                        <button type="button" class="btn btn-lg rounded-pill" style="background-color:rgb(255, 255, 255);">Choose plan</button>
+                    </div>
+                </div>
+              </div>
+              <div class="col-12 col-lg-3">
+                <div class="card border-0 mb-3" style="max-width: 18rem;">
+                    <div class="card-header bg-transparent border-0"><h2>$300</h2></div>
+                    <div class="card-body card-text">
+                      <h4 class="card-title">Business Fair</h4>
+                      <p class="card-text">For most businesses event like book fair, craft fair.</p>
+                      <div class="package_list d-flex flex-column">
+                        <i class="far fa-check-circle py-2"> &nbsp; limited space access</i>
+                        <i class="far fa-check-circle py-2"> &nbsp; Secuirty facility</i>
+                        <i class="far fa-check-circle py-2"> &nbsp; event support</i>
+                        <i class="far fa-check-circle py-2"> &nbsp; Decoration design</i>
+                        <i class="far fa-check-circle py-2"> &nbsp; Per day bill</i>
+                        
+                      </div>
+                    </div>
+                    <div class="card-footer d-grid col-12 mx-auto bg-transparent border-0">
+                        <button type="button" class="btn btn-lg rounded-pill" style="background-color:rgba(233, 191, 230, 0.707);">Choose plan</button>
+                    </div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+      
+      
+        </section>
+
+      <section>
+          
+        <div class="container">
+            <div class="row">
+                <div class="col-12 my-5">
+                    <h1 class="text-center">
+                        Frequently ask any question
+                    </h1>
+                </div>
+            </div>
+            <div class="row my-5">
+              <div class="col-sm-12 col-lg-6">
+                <div class="accordion" id="accordionPanelsStayOpenExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                            <strong>What’s the difference between event design and event planning?</strong>
+                            <!-- <h2>What’s the difference between event design and event planning? </h2> -->
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                        <div class="accordion-body">
+                            There are also quite a few professionals who are event planners and designers. You’ll notice they state they do both very clearly on their website. The bonus for you is you’re able to work with one professional who has a keen eye for design and style, a roster of vendors for you to turn to, and the ability to know everything about your wedding day from your color palette to your family dynamics. While an event planner may also be a designer, they are likely planners first and place a lot of emphasis on their clients’ overall experience with their brand (read: every detail is perfectly planned). These pros also have a team in place to help them to bring your wedding vision to life on your wedding day in the event that you or your groom need assistance during set-up. Event planners and designers represent the best of both worlds!
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                          <strong>How early do we need to start planning an event?</strong>
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                        <div class="accordion-body">
+                        <b>Table of contents</b> <br> <br>
+                        
+                               1.Define goals and objectives     <br>
+                               2.Establish a budget <br>
+                               3.Build your team<br>
+                               4.Pick your venue and date <br>
+                               5.Develop event branding<br>
+                               6.Plan your program<br>
+                               7.Confirm sponsors, exhibitors, and speakers <br>
+                               8.Identify and select tech tools<br>
+                               9.Create a marketing and promotional plan<br>
+                               10.Determine your measurement <br>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                          <strong>What is your refund and cancellation policy?</strong>
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                        <div class="accordion-body">
+                            Refund/cancellation policies applicable in the following conditions: a) In case, the buyer cancels the order online before the product has been shipped, the entire order amount will be refunded. ... Total order amount after deduction of shipment and handling charges will be refunded.
+
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                          <strong>How do you keep budgets on track?</strong>
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
+                        <div class="accordion-body">
+                            <b>5 Steps for Tracking Your Monthly Expenses</b> <br> <br>
+                            
+                            1.Check your account statements. <br>
+                            2.Categorize your expenses. <br>
+                            3.Use a budgeting or expense-tracking app. <br>
+                            4.Explore other expense trackers. <br>
+                            5.Identify room for change. <br>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+               
+              </div>
+
+              <div class="col-sm-12 col-lg-6 accordion d-flex align-items-center">
+
+                <img src="images/people.png" alt="">
+
+              </div>
+
+            </div>
+            
+          </div>
+      </section>
+  <!-- bonus part >off canvas    -->
+<section>
+<div class="container">
+  
+  <div class="row my-5">
+    <div class="col-lg-6 d-flex align-items-center ">
+      <div>
+
+        <div class="gy-5">
+          <h1 class="text-center">Precious Moments Photography</h1>
+        </div>
+        <p>They say a picture is worth a thousand words. But I wonder, what else do “they” say? In order to find out, I’ve culled together the best photography quotes on the subjects of photographs, cameras, inspiration, and more, as said by some of history’s most famous and talented photographers.</p>
+        <!-- <div class="d-flex align-items-center justify-content-center gy-3">
+          <button class="btn border-0 rounded btn-primary"> more information  </button>
+        </div> -->
+        <div class="d-flex justify-content-center gy-3">
+          <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+            Button with data-bs-target
+          </button>
+          
+          <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasExampleLabel">About Me</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <div>
+                <h4>Precious Moments Photography</h4>
+                <p>My name is Tanya Selina Akter and I am the photographer and owner of Precious Moments Photography.  I live in the fun state of Wisconsin, but will travel to wherever my photography takes me. <br>
+                  Something that you might be interested to know about me, before you call me and hear my accent is that I am originally from Ukraine, born and raised.  In Fall of 2006 I met my wonderful husband who I fell in love with and married in 2007 in Kiev, Ukraine (he was a missionary there for 2 years). <br> I thank God for him, he is the best, always loves and supports me no matter what!  Now we have 3 beautiful children; a girl named Ksenia Pearl who is 6- years-old, a 4-year-old son named Sky and a new baby named Eli James, they are my everything.  They really are my inspiration and I love them with all my heart!  <br>
+                  Anyway, there is much more to tell, but I just want to share the main things in my life that are good.  Photography is one of those best things!  I am always looking for new and better ways to make pictures unique and more wonderful for my customers.  I have had so many repeat customers since my studio opened in 2009.  My customers have always been amazing and kind to me. <br> <br> I hope I will get the chance to meet you and share my passion by capturing the precious moments of YOUR LIFE!  Hope to meet you soon.  </p>
+              </div>
+              <div class="dropdown mt-3">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+                  my blog
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <li><a class="dropdown-item" href="#">photography</a></li>
+                  <li><a class="dropdown-item" href="#">video editing</a></li>
+                  <li><a class="dropdown-item" href="#">choreography</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+
+    </div>
+    <div class="col-lg-6">
+       <img src="images/wedding.png" alt="">
+    </div>
+  </div>
+</div>
+</section>
+ </main>
+
+
+    <footer >
+        <div class="container">
+            <div class="row d-flex">
+              <div class="col-12 col-lg-6 align-items-center">
+                <p class="footer_p">© 2020 bike. All rights reserved</p>
+              
+              </div>
+              <div class="col-12 col-lg-6 me-0 text-end">
+                <div style="margin: 40px;">
+                    <h2>Get the app</h2>
+                    <a href="https://www.apple.com/app-store/" target="_blank">
+                    <button class="btn btn-sm  border-3 border-white btn-size">
+                        <div class="d-flex app-btn ">
+                            <i class="fab fa-apple"> </i>
+                            <div>
+                                <small>dawnload on the</small>
+                                <p>App store</p>
+                            </div>
+                            
+                        </div>
+
+                    </button></a> <br> <br>
+                    <a href="https://play.google.com/store/apps" target="_blank">
+                     <button class="btn btn-sm border-3 border-white btn-size">
+                            <div class="d-flex app-btn">
+                                <i class="fab fa-google-play"></i>
+                                <div>
+                                    <small>get it on</small>
+                                     <p>play store</p>
+                                </div>
+                                
+                            </div>
+
+                     </button></a>
+                   
+                   
+                </div>
+              </div>
+              
+            </div>
+          </div>
+
+    </footer>
+
+
+
+
+
+    <!-- bootstrap js bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+     crossorigin="anonymous"></script>
+
+     <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+  </body>
+</html>
